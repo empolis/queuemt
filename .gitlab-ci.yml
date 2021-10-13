@@ -1,0 +1,23 @@
+default:
+  image: electronuserland/builder:wine-mono-05.21
+  before_script:
+    - apt-get update && apt-get install -y zip
+    - npm i -g gulp
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - .npm/
+
+stages:
+  - build
+
+build:
+  tags:
+    - docker
+  stage: build
+  script:
+    - npm i
+    - gulp
+  artifacts:
+    paths:
+      - build/*.zip

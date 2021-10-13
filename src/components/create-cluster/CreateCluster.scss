@@ -1,0 +1,49 @@
+.createCluster--wrapper {
+  overflow: hidden;
+
+  .gridInputs {
+    height: 100vh;
+
+    .gridInputs--error {
+      padding-top: 0px;
+
+      p {
+        height: 20px;
+
+        margin: 0px;
+
+        color: red;
+      }
+    }
+  }
+
+  .fab--wrapper {
+    position: absolute;
+
+    bottom: 20px;
+
+    .fab--extended {
+      margin-left: 20px;
+    }
+
+    .fab--icon {
+      margin-right: 10px;
+    }
+  }
+
+  .fab--left {
+    left: 20px;
+  }
+
+  .fab--right {
+    right: 20px;
+  }
+
+  .form--wrapper {
+    width: 100%;
+
+    .form--control {
+      margin: 3px;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+:root {
+  --drawer-width: 240px;
+}
+
+.clusterOverview--wrapper {
+  display: flex;
+
+  height: 100vh;
+
+  .appBar {
+    width: calc(100% - var(--drawer-width));
+    margin-left: var(--drawer-width);
+
+    .appBar--icon {
+      margin-left: 20px;
+    }
+
+    .appBar--title {
+      flex-grow: 1;
+    }
+  }
+
+  .drawer {
+    width: var(--drawer-width);
+    flex-shrink: 0;
+  }
+
+  .drawer--paper {
+    width: var(--drawer-width);
+  }
+
+  .content {
+    flex-grow: 1;
+
+    margin-top: 60px;
+    padding: 30px;
+  }
+}
+
+.progressBar {
+  position: fixed !important;
+
+  width: 100%;
+  height: 5px !important;
+
+  bottom: 0;
+}

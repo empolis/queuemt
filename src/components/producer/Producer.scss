@@ -1,0 +1,41 @@
+.consumer--wrapper {
+  overflow-x: hidden;
+
+  .consumer--inputs-wrapper {
+    margin: 40px 20px 0px 45px;
+
+    & > div {
+      margin-bottom: 50px;
+    }
+  }
+
+  .consumer--messages-grid {
+    display: flex;
+    justify-content: center;
+
+    padding: 20px 0px 20px 0px;
+  }
+}
+
+.producer--wrapper {
+  .producer--inputs-tabs {
+    background-color: white;
+  }
+
+  .producer--inputs-wrapper {
+    margin: 10px 0px 10px 0px;
+
+    & > * {
+      margin: 10px 0px 10px 0px;
+    }
+  }
+
+  .producer--inputs-header-group {
+    display: flex;
+    justify-content: center;
+
+    & > * {
+      margin: 5px 10px 5px 10px;
+    }
+  }
+}

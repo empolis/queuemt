@@ -1,0 +1,23 @@
+.consumer--wrapper {
+  overflow-x: hidden;
+
+  .consumer--inputs-wrapper {
+    margin: 40px 20px 0px 45px;
+
+    & > div {
+      margin-bottom: 50px;
+    }
+  }
+
+  .consumer--messages-grid {
+    display: flex;
+    justify-content: center;
+
+    padding: 20px 0px 20px 0px;
+  }
+
+  .consumer--messages-headers,
+  .consumer--messages-payload {
+    user-select: text !important;
+  }
+}

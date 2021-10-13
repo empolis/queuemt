@@ -1,0 +1,17 @@
+.vscode/
+
+dist/
+build/
+node_modules/
+
+yarn.lock
+yarn*.log
+
+package-lock.json
+
+coverage/
+
+# idea
+.idea/
+
+src/assets/licenses.json
